@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008080"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.abc.smartcarpoolingsystem.LoginActivity">
+        <EditText
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#f0ffff"
+            android:textColor="#f0ffff"
+
+            android:hint="enter email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/etemailsignin"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:textColor="#f0ffff"
+
+            android:layout_width="match_parent"
+            android:textColorHint="#f0ffff"
+
+            android:layout_height="wrap_content"
+            android:hint="enter password"
+            android:inputType="textPassword"
+            android:id="@+id/etpasswordsignin"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#adff"
+            android:id="@+id/btnsignin"
+            android:text="Sign in"/>
+
+    </LinearLayout>
+</ScrollView>

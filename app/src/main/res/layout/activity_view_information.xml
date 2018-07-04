@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#008080"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.abc.smartcarpoolingsystem.ViewInformation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f0ffff"
+android:textSize="12dp"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_weight="1"
+            android:text="Depature"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="12dp"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#f0ffff"
+
+            android:layout_height="wrap_content"
+            android:text="Destination"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#f0ffff"
+            android:textSize="12dp"
+
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#f0ffff"
+            android:textSize="12dp"
+
+            android:layout_height="wrap_content"
+            android:text="Time"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#f0ffff"
+            android:textSize="12dp"
+
+            android:layout_height="wrap_content"
+            android:text="Car?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#f0ffff"
+            android:textSize="12dp"
+
+            android:layout_height="wrap_content"
+            android:text="Number"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/listviewforuser">
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+    </ListView>
+<!--
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+android:layout_weight="1"
+        android:id="@+id/listviewcontactlist">
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+    </ListView>
+-->
+
+</LinearLayout>

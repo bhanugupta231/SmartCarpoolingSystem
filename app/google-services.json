@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "451357431416",
+    "firebase_url": "https://smartcarpoolingsystem.firebaseio.com",
+    "project_id": "smartcarpoolingsystem",
+    "storage_bucket": "smartcarpoolingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451357431416:android:6849796361038103",
+        "android_client_info": {
+          "package_name": "com.example.abc.smartcarpoolingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451357431416-4i17lmvk12ljl7udbc45m6tksivftha1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abc.smartcarpoolingsystem",
+            "certificate_hash": "1d7b154673eb31c798b70a41fb00471547da3865"
+          }
+        },
+        {
+          "client_id": "451357431416-usifo2flt2rs2h5mdl4t0o3tg8qf987o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHYgdwjtvrFF8EaIveW5t6wAblQ-uQhO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451357431416-usifo2flt2rs2h5mdl4t0o3tg8qf987o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

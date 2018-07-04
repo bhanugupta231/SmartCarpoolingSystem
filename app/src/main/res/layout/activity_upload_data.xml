@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008080"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="com.example.abc.smartcarpoolingsystem.UploadDataActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textColor="#f0ffff"
+            android:textStyle="bold"
+
+            android:textSize="30dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+          />
+
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etdepartureplace"
+            android:textColorHint="#f0ffff"
+            android:textColor="#f0ffff"
+
+            android:hint="Enter departure place"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etdestinationplace"
+            android:textColorHint="#f0ffff"
+            android:textColor="#f0ffff"
+
+            android:hint="Enter destination"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#f0ffff"
+            android:textColor="#f0ffff"
+android:inputType="date"
+            android:id="@+id/etdate"
+            android:hint="Enter date"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#f0ffff"
+            android:textColor="#f0ffff"
+android:inputType="time"
+            android:id="@+id/ettimeofdeparture"
+            android:hint="Enter departure time"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#f0ffff"
+            android:textColor="#f0ffff"
+
+            android:id="@+id/etwhethercar"
+            android:hint="Have a car:Yes/No"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#f0ffff"
+            android:textColor="#f0ffff"
+            android:inputType="number"
+            android:maxLength="10"
+
+            android:id="@+id/etnumber"
+            android:hint="Number"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#adff"
+                android:layout_marginRight="1dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btnsave"
+                android:text="Save"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#adff"
+                android:layout_marginLeft="1dp"
+                android:id="@+id/btnview"
+                android:text="View"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:background="#adff"
+
+            android:text="Log out"
+            android:id="@+id/btnuserlogout"/>
+
+    </LinearLayout>
+</ScrollView>
